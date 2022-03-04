@@ -1,0 +1,118 @@
+@import "/styles/header-footer/header";
+@import "/styles/header-footer/footer";
+
+.title
+{
+    width: 495px;
+    height: 130px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    color: #111111;
+    display: flex;
+    align-self:flex-start;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.main_left
+{
+    width: 635px;
+    height: 222px;
+    
+}
+.main_left p
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    font-family: 'Mulish', sans-serif;
+}
+.details
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 330px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 20px;  
+    margin-right: 100px; 
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+}
+.transparent
+{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border: 1px solid #979797;
+}
+.bold
+{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+}
+.image
+{
+    width: 95%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+}
+img
+{
+    width: 100%;
+    height: 800px;
+}
+.bottom_text
+{
+    width: 95%;
+    height: 93px;
+    padding-top: 45px;
+}
+.txt
+{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.bottom_img img
+{
+    width: 450px;
+    height: 450px;
+}
+.bottom_images
+{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 70px;
+    padding-top: 45px; 
+}
